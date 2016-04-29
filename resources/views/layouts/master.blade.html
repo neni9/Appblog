@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>@yield('title', 'App')</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
+        <link href='https://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <header>
+            <nav>@include('partials.nav')</nav>
+        </header>
+        <hr>
+        
+        <div class="main">
+           @yield('h1')
+            <div class="content">
+                @yield('content')
+            </div>
+            <div class="sidebar">@yield('sidebar')</div>
+        </div>
+        <footer></footer>
+        <script src="http://code.jquery.com/jquery-2.2.2.min.js"></script>
+        <script src="{{ asset('assets/js/app.min.js') }}"></script>
+    </body>
+</html>

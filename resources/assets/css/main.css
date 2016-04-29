@@ -1,0 +1,78 @@
+html, body {
+    
+}
+
+.main {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    padding: 10px;
+    border-radius: 5px;
+    background: rgba(0,0,0,.1);
+    text-decoration: none;
+    color: black;
+}
+
+.content {
+    width: 80%;
+/*    float:left;*/
+    margin: 0 auto;
+        padding: 2%;
+}
+
+
+p.italic {
+    font-size:12px;
+    font-style: italic;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+}
+a{
+    color:#fff !important;
+}
+.btn-warning a{
+    color: #fff !important;
+}
+
+/* hello */
+/*.helloworld{
+  background: tomato;
+}
+.helloworld::after{
+  background: inherit;
+}
+
+.helloworld{
+  position: relative;
+  margin: 30px auto;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  font: 1.6em sans-serif;
+  text-shadow: 0 1px 0 rgba(255,255,255,.4);
+}
+.helloworld::after{
+  content:'';
+  position: absolute; z-index: -1;
+  left: 50%; bottom: -8px;
+  margin-left: -5px;
+  width: 16px;
+  height:16px;
+  transform: rotate(45deg);
+}
+/*no matter*/
